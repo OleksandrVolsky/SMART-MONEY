@@ -1,0 +1,182 @@
+
+.logo {
+    width: 458px;
+    height: 339px;
+}
+
+/* Button-back */
+.back-btn {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color: #F5821E;
+    border: none;
+    border-radius: 10px;
+    width: 145px;
+    height: 44px;
+    font-family: 'Open Sans';
+}
+
+.back-btn:hover {
+    /* при наведенні */
+    background-color: rgba(255, 102, 0, 0.464);
+    border-color: rgba(255, 102, 0, 0.464);
+    cursor: pointer;
+}
+
+.back-btn:active {
+    /* при натисканні */
+    background-color: rgba(255, 102, 0, 0.464);
+    border-color: rgba(255, 102, 0, 0.464);
+}
+
+/* batton-login */
+.login-btn {
+    color: #F5821E;
+    background-color: white;
+    border-color: #f5821e;
+    border-radius: 5px;
+    width: 114px;
+    height: 44px;
+    cursor: pointer;
+    font-family: 'Open Sans';
+}
+
+.login {
+    font-size: 18px;
+    width: 48px;
+    height: 19px;
+    font-family: 'Open Sans';
+}
+
+ /* batton-login */
+.login-btn {
+    color: #F5821E;
+    background-color: white;
+    border-color: #f5821e;
+    border-radius: 5px;
+    width: 114px;
+    height: 44px;
+    cursor: pointer;
+    font-family: 'Open Sans';
+}
+
+.login {
+    font-size: 18px;
+    width: 48px;
+    height: 19px;
+    font-family: 'Open Sans';
+}
+
+.login-btn:hover {
+    color: white;
+    background: rgba(255, 102, 0, 0.464);
+    border-color: rgba(255, 102, 0, 0.464);
+    font-family: 'Open Sans';
+}
+/* текст */
+.bold-text {
+    color: rgb(0, 0, 0);
+}
+
+.paragraf {
+    color: #5c6a71;
+    font-size: 20px;
+    font-family: 'Open Sans';
+}
+
+
+.solutions {
+    font-size: 24px;
+    color: #F5821E;
+    font-family: 'Open Sans';
+}
+.tel {
+    color: #F5821E;
+}
+
+.section-top {
+    font-size: 36px;
+    font-family: 'Open Sans';
+}
+
+.smart-money {
+    font-size: 32px;
+    color: #7700AA;
+    width: 259px;
+    height: 44px;
+    font-family: 'Open Sans';
+}
+.coll {
+    font-size: 20px;
+    width: 202px;
+    height: 25px;
+}
+
+.form {
+    background-color: #EBE1EF;
+    width: 658px;
+    height: 488px;
+    border-radius: 10px;
+    border: 1px;
+}
+
+.input {
+    width: 285px;
+    height: 44px;
+    border-radius: 10px;
+    border: 1px;
+    color: #9F9F9F;
+    font-size: 16px;
+    font-family: 'Open Sans';
+}
+
+.label {
+    width: 218px;
+    height: 20px;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    color: #323E44;
+}
+
+.contact-info {
+    font-family: 'Open Sans';
+}
+
+.check-text {
+    font-family: 'Open Sans';
+    width: 372px;
+    height: 13px;
+    font-size: 16px;
+}
+
+.send-btn {
+    background-color: #7700AA;
+    border-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.send-btn:hover {
+    background-color: white;
+    border-color: #7700AA;
+}
+
+.send-text {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    color: #F5F5F5;
+    width: 132px;
+    height: 44px;
+}
+
+.send-text:hover {
+    color: #7700AA;
+}
+
+.checkbox {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #747474;
+}
