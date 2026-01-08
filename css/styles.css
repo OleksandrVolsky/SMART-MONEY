@@ -1,182 +1,98 @@
-
-.logo {
-    width: 458px;
-    height: 339px;
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
-/* Button-back */
-.back-btn {
-    font-size: 18px;
-    color: rgb(255, 255, 255);
-    background-color: #F5821E;
-    border: none;
-    border-radius: 10px;
-    width: 145px;
-    height: 44px;
-    font-family: 'Open Sans';
+body {
+    background-color: #F5F5F5;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.back-btn:hover {
-    /* при наведенні */
-    background-color: rgba(255, 102, 0, 0.464);
-    border-color: rgba(255, 102, 0, 0.464);
-    cursor: pointer;
+/* Заголовок */
+header {
+    margin-top: 11px;
+    height: 84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid #B3B3B3CC;
+
 }
 
-.back-btn:active {
-    /* при натисканні */
-    background-color: rgba(255, 102, 0, 0.464);
-    border-color: rgba(255, 102, 0, 0.464);
+/* Ліва частина  */
+.left-object {
+    display: flex;
+    align-items: center;
+    margin-left: 140px;
+    gap: 12px;
 }
 
-/* batton-login */
-.login-btn {
-    color: #F5821E;
-    background-color: white;
-    border-color: #f5821e;
-    border-radius: 5px;
-    width: 114px;
-    height: 44px;
-    cursor: pointer;
-    font-family: 'Open Sans';
+.group {
+    width: 60px;
+    height: 60px;
 }
 
-.login {
-    font-size: 18px;
-    width: 48px;
-    height: 19px;
-    font-family: 'Open Sans';
-}
-
- /* batton-login */
-.login-btn {
-    color: #F5821E;
-    background-color: white;
-    border-color: #f5821e;
-    border-radius: 5px;
-    width: 114px;
-    height: 44px;
-    cursor: pointer;
-    font-family: 'Open Sans';
-}
-
-.login {
-    font-size: 18px;
-    width: 48px;
-    height: 19px;
-    font-family: 'Open Sans';
-}
-
-.login-btn:hover {
-    color: white;
-    background: rgba(255, 102, 0, 0.464);
-    border-color: rgba(255, 102, 0, 0.464);
-    font-family: 'Open Sans';
-}
-/* текст */
-.bold-text {
-    color: rgb(0, 0, 0);
-}
-
-.paragraf {
-    color: #5c6a71;
-    font-size: 20px;
-    font-family: 'Open Sans';
-}
-
-
-.solutions {
-    font-size: 24px;
-    color: #F5821E;
-    font-family: 'Open Sans';
-}
-.tel {
-    color: #F5821E;
-}
-
-.section-top {
-    font-size: 36px;
-    font-family: 'Open Sans';
+.brand-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
 }
 
 .smart-money {
     font-size: 32px;
-    color: #7700AA;
-    width: 259px;
-    height: 44px;
-    font-family: 'Open Sans';
-}
-.coll {
-    font-size: 20px;
-    width: 202px;
-    height: 25px;
-}
-
-.form {
-    background-color: #EBE1EF;
-    width: 658px;
-    height: 488px;
-    border-radius: 10px;
-    border: 1px;
-}
-
-.input {
-    width: 285px;
-    height: 44px;
-    border-radius: 10px;
-    border: 1px;
-    color: #9F9F9F;
-    font-size: 16px;
-    font-family: 'Open Sans';
-}
-
-.label {
-    width: 218px;
-    height: 20px;
-    font-size: 18px;
-    font-family: 'Open Sans';
-    color: #323E44;
-}
-
-.contact-info {
-    font-family: 'Open Sans';
-}
-
-.check-text {
-    font-family: 'Open Sans';
-    width: 372px;
-    height: 13px;
-    font-size: 16px;
-}
-
-.send-btn {
-    background-color: #7700AA;
-    border-color: white;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.send-btn:hover {
-    background-color: white;
-    border-color: #7700AA;
-}
-
-.send-text {
-    font-family: 'Open Sans';
-    font-size: 18px;
-    color: #F5F5F5;
-    width: 132px;
-    height: 44px;
-}
-
-.send-text:hover {
+    font-weight: 800;
+    line-height: 100%;
+    vertical-align: bottom;
     color: #7700AA;
 }
 
-.checkbox {
-    width: 24px;
-    height: 24px;
-    cursor: pointer;
+.solutions {
+    font-weight: 600;
     font-size: 24px;
-    color: #747474;
+    line-height: 100%;
+    vertical-align: bottom;
+    color: #FF8822;
 }
+
+/* Права частина */
+.right-object {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 140px;
+}
+
+.call {
+    display: flex;
+    flex-direction: row;
+    line-height: 1;
+    gap: 20px;
+    
+    
+}
+
+.callus {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    margin-right: 0px;
+}
+
+.tel {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    color: #F5821E;
+}
+
+.login-btn {
+    margin-top: 10px;
+    width: 114px;
+    height: 44px;
+    color: #F5821E;
+    border: 1px solid #F5821E;
+    background-color: #ffffff;
+    border-radius: 5px;
+} 
