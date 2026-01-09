@@ -2,124 +2,78 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>Smart Money Solutions</title>
     <link rel="stylesheet" href="css/styles.css">
-    <title>SMART MONEY</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
-<header class="header">
-    <!-- Ліва частина -->
-    <div class="left-object">
-        <img src="img/Group 54.png" alt="Smart Money Logo" class="group">
-        
-        <div class="brand-text">
-            <h1 class="smart-money">Smart-money</h1>
-            <p class="solutions">solutions</p>
+<header>
+    <div class="container header">
+        <div class="logo-block">
+            <img src="img/Group 54.png" alt="logo">
+            <div>
+                <div class="logo-title">SMART MONEY</div>
+                <div class="logo-subtitle">solutions</div>
+            </div>
         </div>
-    </div>
 
-    <!-- Права частина -->
-    <div class="right-object">
-        <div class="call">
-            <p class="callus">Call Us:<span class="tel">123-456-7890</span></p>
+        <div class="header-right">
+            <div class="call-block">
+                <span>Call Us:</span>
+                <span class="phone">123-456-7890</span>
+            </div>
             <button class="login-btn">Login</button>
         </div>
     </div>
 </header>
 
-<main>
-    <img src="img/smart-money.png" class="logo" alt="SMART MONEY" width="200px" height="200px">
+<main class="container">
+    <section class="top-section">
+        <img src="img/smart-money.png" class="illustration" alt="illustration">
 
-    <!-- Верхня секція -->
-    <section>
-        <h2 class="section-top">Please provide your information</h2>
+        <div class="info">
+            <h1>Please provide your information</h1>
 
-        <p class="paragraf">
-            Based on the information provided so far you may not qualify for a personal loan.
-            <strong>
-                <span class="bold-text">
-                    If you believe you’ve made a mistake somewhere
-                </span>
-            </strong>
-            please click “back” below to update your responses
-        </p>
+            <p>
+                Based on the information provided so far you may not qualify for a personal loan.
+                If you believe you've made a mistake somewhere please click “back”
+                below to update your responses.
+            </p>
 
-        <button class="back-btn">
-            <span>&#60;</span>
-            <span>Back</span>
-        </button>
+            <button class="back-btn">← Back</button>
+        </div>
     </section>
 
-    <!-- Нижня секція -->
-    <section>
-        <p class="paragraf">
-            <strong class="bold-text">If your answers were accurate</strong>
-            but you ended up here, you may want to get a second opinion and be re-evaluated.
-            If you’d like to have one of our agents check your answers, please fill out the form on the right.
-        </p>
+    <section class="bottom-section">
+        <div class="hint">
+            <p>
+                If your answers were accurate but you ended up here, you may want to get a second
+                opinion and be re-evaluated. If you'd like to have one of our agents check your
+                answers, please fill out the form on the right.
+            </p>
+        </div>
 
-        <form action="#" class="form">
-            <h2 class="contact-info">Contact Information</h2>
+        <form class="form-card">
+            <h2>Contact Information</h2>
 
-            <!-- Ліва частина форми -->
-            <div class="form-left">
-                <div>
-                    <label for="name" class="label">Full Name</label><br>
-                    <input type="text" id="name" name="name" class="input" placeholder="ex. John Doe">
-                </div>
+            <div class="form-grid">
+                <input type="text" placeholder="Full Name">
+                <input type="number" placeholder="Number of personal loans in 2019">
 
-                <div>
-                    <label for="email" class="label">Email Address</label><br>
-                    <input type="email" id="email" name="email" class="input" placeholder="ex. john@gmail.com">
-                </div>
+                <input type="email" placeholder="Email Address">
+                <input type="number" placeholder="Number of personal loans in 2020">
 
-                <div>
-                    <label for="phone" class="label">Phone Number</label><br>
-                    <input type="tel" id="phone" name="phone" class="input" placeholder="ex. +1 (555) 555-1234">
-                </div>
+                <input type="tel" placeholder="Phone Number">
+                <input type="number" placeholder="Number of personal loans in 2021">
             </div>
 
-            <!-- Права частина форми -->
-            <div class="form-right">
-                <div>
-                    <label for="number1" class="label">
-                        Number of personal loans in <strong class="form-year">2019</strong>
-                    </label><br>
-                    <input type="text" id="number1" name="number1" class="input" placeholder="ex. 1">
-                </div>
-
-                <div>
-                    <label for="number2" class="label">
-                        Number of personal loans in <strong class="form-year">2020</strong>
-                    </label><br>
-                    <input type="text" id="number2" name="number2" class="input" placeholder="ex. 1">
-                </div>
-
-                <div>
-                    <label for="number3" class="label">
-                        Number of personal loans in <strong class="form-year">2021</strong>
-                    </label><br>
-                    <input type="text" id="number3" name="number3" class="input" placeholder="ex. 1">
-                </div>
-            </div>
-
-            <!-- Checkbox -->
-            <label class="checkbox-label">
-                <input type="checkbox" class="checkbox">
-                <span class="check-text">
-                    By checking this box, you agree to be contacted.
-                </span>
+            <label class="checkbox">
+                <input type="checkbox">
+                By checking this box, you agree to be contacted.
             </label>
 
-            <!-- Кнопка -->
-            <button type="submit" class="send-btn">
-                <span class="send-text">Send</span>
-            </button>
+            <button class="send-btn">Send</button>
         </form>
     </section>
 </main>
